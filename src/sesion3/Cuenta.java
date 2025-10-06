@@ -41,12 +41,12 @@ public class Cuenta {
 	
 	public void ingresar(Double cantidad)
 	{
-		this.saldo=500d;
+		this.saldo=this.saldo+cantidad;
 	}
 	
 	public void retirar(Double cantidad)
 	{
-		this.saldo=-500d;
+		this.saldo=this.saldo-cantidad;
 	}
 	
 	
